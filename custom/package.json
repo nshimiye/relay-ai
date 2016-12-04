@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/nshimiye/relay-ai#readme",
   "dependencies": {
-    "textbelt": "0.0.3"
+    "twilio": "^2.11.1"
   }
 }
