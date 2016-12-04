@@ -2,7 +2,8 @@
 exports.sendSMS = function(){
   'use strict';
   //Initialize a REST client in a single line:
-  var client = require('twilio')('AC7c79dae77ff7c2eece5a029ce1f5a8b1', '677765b7bbc0d0a954610091ff3e60fb');
+  const config = require('./config.json')
+  var client = require('twilio')(config.ID, config.SECRET);
 
   // Use this convenient shorthand to send an SMS:
   client.sendSms({
