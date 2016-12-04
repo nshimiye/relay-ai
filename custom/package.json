@@ -1,0 +1,29 @@
+{
+  "name": "relay-ai",
+  "version": "1.0.0",
+  "description": "bot that sends messages to different users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshimiye/relay-ai.git"
+  },
+  "keywords": [
+    "bot",
+    "ai",
+    "messeging",
+    "machine",
+    "learning"
+  ],
+  "author": "Marcellin <nmarcellin2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nshimiye/relay-ai/issues"
+  },
+  "homepage": "https://github.com/nshimiye/relay-ai#readme",
+  "dependencies": {
+    "textbelt": "0.0.3"
+  }
+}
